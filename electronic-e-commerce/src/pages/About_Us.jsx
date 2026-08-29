@@ -165,12 +165,12 @@ function AboutUs() {
           </p>
 
           {/* Mobile Communications Card */}
-          <div className="relative rounded-3xl overflow-hidden h-[400px] md:h-[500px]">
-            <img
-              src="https:
-              alt="IT & Mobile Communications"
-              className="w-full h-full object-cover"
-            />
+            <div className="relative rounded-3xl overflow-hidden h-[400px] md:h-[500px]">
+              <img
+                src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=1600&h=800&fit=crop"
+                alt="IT & Mobile Communications"
+                className="w-full h-full object-cover"
+              />
             <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
             <div className="absolute bottom-12 left-8 md:left-12 max-w-md">
               <span className="text-white/70 text-sm font-medium">IT & Mobile Communications</span>

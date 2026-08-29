@@ -118,18 +118,18 @@ export default function Footer() {
           {/* Mạng xã hội: Dùng icon Lucide-React với hiệu ứng đẹp hơn */}
           <div className="flex items-center space-x-4 order-1 md:order-2">
             {/* Facebook */}
-            <p
-              href="https:
+            <a
+              href="https://facebook.com/SamsungMobile"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
               className="text-gray-500 hover:text-blue-600 transition duration-150 ease-in-out transform hover:scale-110"
             >
               <Facebook className="w-5 h-5" />
-            </p>
+            </a>
 
             {/* Twitter/X */}
-            <p
+            <a
               href="https://twitter.com/SamsungMobile"
               target="_blank"
               rel="noopener noreferrer"
@@ -137,21 +137,21 @@ export default function Footer() {
               className="text-gray-500 hover:text-blue-600 transition duration-150 ease-in-out transform hover:scale-110"
             >
               <Twitter className="w-5 h-5" />
-            </p>
+            </a>
 
             {/* Instagram */}
-            <p
-              href="https:
+            <a
+              href="https://instagram.com/samsungmobile"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
               className="text-gray-500 hover:text-blue-600 transition duration-150 ease-in-out transform hover:scale-110"
             >
               <Instagram className="w-5 h-5" />
-            </p>
+            </a>
 
             {/* YouTube */}
-            <p
+            <a
               href="https://www.youtube.com/user/SamsungMobile"
               target="_blank"
               rel="noopener noreferrer"
@@ -159,7 +159,7 @@ export default function Footer() {
               className="text-gray-500 hover:text-blue-600 transition duration-150 ease-in-out transform hover:scale-110"
             >
               <Youtube className="w-5 h-5" />
-            </p>
+            </a>
           </div>
         </div>
       </div>

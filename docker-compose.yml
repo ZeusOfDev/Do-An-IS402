@@ -11,7 +11,7 @@ services:
       dockerfile: Dockerfile
       target: production
       args:
-        VITE_BACKEND_API_URL: http://backend:8080/api
+        VITE_BACKEND_API_URL: http://localhost:8000/api
         VITE_GOOGLE_CLIENT_ID: 518525301067-6vci81s4s8eo4klif1rmj18rl8o216po.apps.googleusercontent.com
         VITE_GOOGLE_REDIRECT_URI: http://localhost:5173/auth/callback
     ports:

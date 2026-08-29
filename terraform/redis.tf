@@ -10,7 +10,7 @@ resource "azurerm_redis_cache" "metrics" {
   non_ssl_port_enabled = false
 
 
-  public_network_access_enabled = false
+  public_network_access_enabled = true
 
   redis_configuration {
     maxmemory_policy                = "allkeys-lru"
@@ -39,7 +39,7 @@ resource "azurerm_private_endpoint" "redis" {
     is_manual_connection           = false
     subresource_names              = ["redisCache"]
   }
-
+  
   private_dns_zone_group {
     name                 = "redis-dns-zone-group"
     private_dns_zone_ids = [azurerm_private_dns_zone.redis.id]

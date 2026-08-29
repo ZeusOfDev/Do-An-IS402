@@ -74,7 +74,7 @@ function Career() {
                 </div>
                 <div className="h-40">
                   <img
-                    src="https:
+                    src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&auto=format&fit=crop"
                     alt="Benefits"
                     className="w-full h-full object-cover rounded-b-3xl"
                   />

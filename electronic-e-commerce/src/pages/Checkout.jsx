@@ -27,7 +27,7 @@ const OrderSummary = ({ cartItems, subtotal, discount, promoCode, promoInput, se
             <div key={item.cart_item_id} className="flex gap-3 mb-3">
               <div className="w-16 h-16 bg-gray-100 rounded flex items-center justify-center flex-shrink-0">
                 <img
-                  src={item.image_url || "https:
+                  src={item.image_url || "https://via.placeholder.com/150"}
                   alt={item.product_name}
                   className="max-w-full max-h-full object-contain"
                 />
